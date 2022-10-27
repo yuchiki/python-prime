@@ -3,20 +3,13 @@
 from typing import List
 
 
-class InvalidArgument(Exception):
-    """引数が不正なことを表すエラー."""
-
-
-def prime_numbers(length: int) -> List[int]:
-    """素数を小さい順にlength個並べたリストを返す.
+def prime_numbers(max: int) -> List[int]:
+    """max以下の昇順の素数列を返す.
 
     Args:
-        length (int): 素数リストの長さ
+        max (int): 探索範囲の上限
 
     Returns:
-        List[int]: 小さい方からlength個並んだ素数列
-
-    Raises:
-        InvalidArgument: 引数が負のとき.
+        List[int]: max以下の昇順の素数列
     """
     pass
