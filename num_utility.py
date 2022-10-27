@@ -19,3 +19,4 @@ def prime_numbers(length: int) -> List[int]:
     Raises:
         InvalidArgument: 引数が負のとき.
     """
+    pass
