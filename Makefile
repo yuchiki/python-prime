@@ -2,6 +2,7 @@ check-all: test lint type-check
 
 test:
 	pytest
+	python -m doctest num_utility.py
 
 lint:
 	isort .
